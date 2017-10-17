@@ -1,11 +1,11 @@
 not-pepe
 ---
 
-### get your tensorflow installed
+### Get your tensorflow installed
 
 [follow one of the guides here](https://www.tensorflow.org/install/)
 
-### train it
+### Train it
 
 ```
 python retrain.py \
@@ -17,8 +17,17 @@ python retrain.py \
  --image_dir=images
 ```
 
-### classify it
+### Classify it
 
 ```
 python label_image.py image.jpg
+```
+
+### Example output
+
+```
+(tensorflow) $ python label_image.py test-image.jpg
+PEPE
+(tensorflow) $ python label_image.py catte.png
+NOT PEPE
 ```
