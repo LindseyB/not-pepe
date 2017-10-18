@@ -1,5 +1,6 @@
-import os, sys
+# command line tool for determining if passed in filepath is pepe or not
 
+import os, sys
 import tensorflow as tf
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -33,7 +34,6 @@ with tf.Session() as sess:
     for node_id in top_k:
         human_string = label_lines[node_id]
         score = predictions[0][node_id]
-        #print('%s (score = %.5f)' % (human_string, score))
         if human_string == "pepe":
             if score >= .9:
                 print("PEPE")
