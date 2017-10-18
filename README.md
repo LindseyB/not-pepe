@@ -31,3 +31,31 @@ PEPE
 (tensorflow) $ python label_image.py catte.png
 NOT PEPE
 ```
+
+### NOT-PEPE AS A SERVICE
+
+
+using cURL:
+
+```
+$ curl -X POST \
+  https://not-pepe.herokuapp.com/ \
+  -F url=http://i0.kym-cdn.com/photos/images/facebook/000/862/065/0e9.jpg
+```
+
+example response bodies:
+
+```
+{
+  "results": "PEPE",
+  "status": "OK"
+}
+```
+
+```
+{
+  "results": "NOT_PEPE",
+  "status": "OK"
+}
+
+```
