@@ -1,3 +1,5 @@
+# Not-pepe as a service server
+
 import os, sys
 import tensorflow as tf
 from flask import Flask, jsonify, render_template, request
@@ -48,7 +50,7 @@ def classify():
 
 @app.route('/', methods=['GET'])
 def main():
-    return jsonify(status='OK', message='FEED ME IMAGES\nRead more: https://github.com/LindseyB/not-pepe')
+    return jsonify(status='OK', message='FEED ME IMAGES, Read more: https://github.com/LindseyB/not-pepe')
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
