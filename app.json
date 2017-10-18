@@ -1,0 +1,7 @@
+{
+  "name": "Not Pepe as a Service",
+  "description": "Determines if an image is of pepe or not",
+  "repository": "https://github.com/LindseyB/not-pepe",
+  "logo": "http://irishstudies.sunygeneseoenglish.org/wp-content/uploads/sites/6/2014/12/not.png",
+  "keywords": ["tensorflow", "python", "flask"]
+}
