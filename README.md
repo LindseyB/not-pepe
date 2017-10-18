@@ -34,6 +34,7 @@ NOT PEPE
 
 ### NOT-PEPE AS A SERVICE
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 using cURL:
 
