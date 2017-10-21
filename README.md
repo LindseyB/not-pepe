@@ -40,7 +40,7 @@ using cURL:
 
 ```
 $ curl -X POST \
-  https://not-pepe.herokuapp.com/ \
+  https://starry-lattice-183618.appspot.com \
   -F url=http://i0.kym-cdn.com/photos/images/facebook/000/862/065/0e9.jpg
 ```
 
