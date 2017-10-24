@@ -61,4 +61,4 @@ example response bodies:
 
 ```
 
-![I'm no hero. I put my bra on one boob at a time like everyone else.](https://assets-auto.rbl.ms/becd4975f2a7c0b5f73523ba24edcb81ad84a4c170ee9617772788a1de2c5214)
+![I'm no hero. I put my bra on one boob at a time like everyone else](https://assets-auto.rbl.ms/becd4975f2a7c0b5f73523ba24edcb81ad84a4c170ee9617772788a1de2c5214)
